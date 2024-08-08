@@ -1,39 +1,156 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
     background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 1em 0;
 }
 
-form {
-    margin: 2em auto;
-    padding: 2em;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin: 0.5em 0 0;
+}
+
+.hero {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+.cta-button {
+    background-color: #fff;
+    color: #28a745;
+    padding: 0.75em 1.5em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1em;
+}
+
+.features {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.features h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.feature {
+    margin: 1em 0;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #e9ecef;
+}
+
+.testimonials h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.testimonial {
+    margin: 1em 0;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 0.5em;
+}
+
+.engagement {
+    text-align: center;
+    padding: 2em 1em;
+}
+
+.engagement h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.engagement p {
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+#signup-form {
     max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-label {
+#signup-form label {
     display: block;
-    margin: 1em 0 0.5em;
+    margin: 0.5em 0 0.25em;
 }
 
-input {
+#signup-form input {
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
 }
 
-button {
-    background: #28a745;
+#signup-form button {
+    background-color: #28a745;
     color: #fff;
     border: none;
     padding: 0.75em 1.5em;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
