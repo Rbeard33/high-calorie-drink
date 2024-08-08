@@ -24,7 +24,7 @@ header p {
 
 .hero {
     text-align: center;
-    padding: 2em 1em;
+    padding: 3em 1em;
     background-color: #28a745;
     color: #fff;
 }
@@ -47,6 +47,8 @@ header p {
     border-radius: 5px;
     text-decoration: none;
     font-size: 1.2em;
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .hero-image {
@@ -55,49 +57,10 @@ header p {
     margin-top: 1em;
 }
 
-.features {
-    text-align: center;
-    padding: 2em 1em;
-}
-
-.features h2 {
-    margin: 0;
-    font-size: 2em;
-}
-
-.feature {
-    margin: 1em 0;
-}
-
-.testimonials {
-    text-align: center;
-    padding: 2em 1em;
-    background-color: #e9ecef;
-}
-
-.testimonials h2 {
-    margin: 0;
-    font-size: 2em;
-}
-
-.testimonial {
-    margin: 1em 0;
-}
-
-.testimonial p {
-    font-style: italic;
-}
-
-.testimonial img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-top: 0.5em;
-}
-
 .engagement {
     text-align: center;
     padding: 2em 1em;
+    background-color: #e9ecef;
 }
 
 .engagement h2 {
@@ -137,6 +100,11 @@ header p {
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.2em;
+}
+
+.note {
+    margin-top: 1em;
+    font-size: 0.9em;
 }
 
 footer {
