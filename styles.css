@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Soft Gray background */
+    background-color: #f9f9f9; /* Light Gray background */
     color: #333; /* Dark Gray text */
 }
 
 header {
-    background-color: #003366; /* Deep Blue header */
+    background-color: #ff5722; /* Vibrant Orange */
     color: #fff; /* White text */
     text-align: center;
     padding: 1em 0;
@@ -15,53 +15,88 @@ header {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em; /* Larger font size for emphasis */
+    font-size: 3em; /* Larger font size for emphasis */
 }
 
 header p {
     margin: 0.5em 0 0;
-    font-size: 1.2em; /* Slightly larger font size for readability */
+    font-size: 1.5em; /* Larger font size for readability */
 }
 
 .hero {
-    text-align: center;
-    padding: 3em 1em;
-    background-color: #4CAF50; /* Vibrant Green background */
+    background-image: url('hero-bg.jpg'); /* Add your own background image */
+    background-size: cover;
+    background-position: center;
     color: #fff; /* White text */
+    text-align: center;
+    padding: 5em 1em;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    display: inline-block;
+    padding: 2em;
+    border-radius: 10px;
 }
 
 .hero h2 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 .hero p {
     margin: 1em 0;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .cta-button {
-    background-color: #00BFFF; /* Light Blue button */
+    background-color: #00bcd4; /* Teal Blue button */
     color: #fff; /* White text */
-    padding: 0.75em 1.5em;
+    padding: 0.75em 2em;
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.5em;
     display: inline-block;
     margin-top: 1em;
 }
 
-.hero-image {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 1em;
+.ingredients {
+    text-align: center;
+    padding: 3em 1em;
+    background-color: #ffffff; /* White background */
+}
+
+.ingredients h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff5722; /* Vibrant Orange for headers */
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients li {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    font-size: 1.2em;
+    color: #333; /* Dark Gray text */
+}
+
+.ingredients .icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
 }
 
 .engagement {
     text-align: center;
-    padding: 2em 1em;
-    background-color: #ffffff; /* White background for contrast */
+    padding: 3em 1em;
+    background-color: #00bcd4; /* Teal Blue background */
+    color: #fff; /* White text */
 }
 
 .engagement h2 {
@@ -80,6 +115,7 @@ header p {
     background: #fff; /* White background */
     padding: 2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 #signup-form label {
@@ -89,23 +125,20 @@ header p {
 
 #signup-form input {
     width: 100%;
-    padding: 0.5em;
+    padding: 0.75em;
     margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
 }
 
 #signup-form button {
-    background-color: #4CAF50; /* Vibrant Green button */
+    background-color: #ff5722; /* Vibrant Orange button */
     color: #fff; /* White text */
     border: none;
     padding: 0.75em 1.5em;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.2em;
-}
-
-.note {
-    margin-top: 1em;
-    font-size: 0.9em;
 }
 
 footer {
@@ -117,47 +150,4 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-footer a {
-    color: #fff; /* White links */
-    text-decoration: none;
-}
-
-/* New Styles for Ingredients Section */
-.ingredients {
-    text-align: center;
-    padding: 2em 1em;
-    background-color: #ffffff; /* White background for contrast */
-}
-
-.ingredients h2 {
-    margin: 0;
-    font-size: 2.5em;
-    color: #003366; /* Deep Blue for headers */
-}
-
-.ingredients p {
-    margin: 1em 0;
-    font-size: 1.2em;
-    color: #333; /* Dark Gray text */
-}
-
-.ingredients ul {
-    list-style: none;
-    padding: 0;
-}
-
-.ingredients li {
-    display: flex;
-    align-items: center;
-    margin: 1em 0;
-    font-size: 1.1em;
-    color: #333; /* Dark Gray text */
-}
-
-.ingredients .icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
 }
