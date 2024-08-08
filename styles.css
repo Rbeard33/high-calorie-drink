@@ -2,31 +2,32 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f0f0f0; /* Soft Gray background */
+    color: #333; /* Dark Gray text */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #003366; /* Deep Blue header */
+    color: #fff; /* White text */
     text-align: center;
     padding: 1em 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em; /* Larger font size for emphasis */
 }
 
 header p {
     margin: 0.5em 0 0;
+    font-size: 1.2em; /* Slightly larger font size for readability */
 }
 
 .hero {
     text-align: center;
     padding: 3em 1em;
-    background-color: #28a745;
-    color: #fff;
+    background-color: #4CAF50; /* Vibrant Green background */
+    color: #fff; /* White text */
 }
 
 .hero h2 {
@@ -40,8 +41,8 @@ header p {
 }
 
 .cta-button {
-    background-color: #fff;
-    color: #28a745;
+    background-color: #00BFFF; /* Light Blue button */
+    color: #fff; /* White text */
     padding: 0.75em 1.5em;
     border: none;
     border-radius: 5px;
@@ -60,12 +61,12 @@ header p {
 .engagement {
     text-align: center;
     padding: 2em 1em;
-    background-color: #e9ecef;
+    background-color: #ffffff; /* White background for contrast */
 }
 
 .engagement h2 {
     margin: 0;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 .engagement p {
@@ -76,7 +77,7 @@ header p {
 #signup-form {
     max-width: 400px;
     margin: 0 auto;
-    background: #fff;
+    background: #fff; /* White background */
     padding: 2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -93,8 +94,8 @@ header p {
 }
 
 #signup-form button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #4CAF50; /* Vibrant Green button */
+    color: #fff; /* White text */
     border: none;
     padding: 0.75em 1.5em;
     cursor: pointer;
@@ -110,8 +111,8 @@ header p {
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #333;
-    color: #fff;
+    background-color: #003366; /* Deep Blue footer */
+    color: #fff; /* White text */
 }
 
 footer p {
@@ -119,6 +120,6 @@ footer p {
 }
 
 footer a {
-    color: #fff;
+    color: #fff; /* White links */
     text-decoration: none;
 }
