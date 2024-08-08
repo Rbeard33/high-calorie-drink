@@ -123,3 +123,41 @@ footer a {
     color: #fff; /* White links */
     text-decoration: none;
 }
+
+/* New Styles for Ingredients Section */
+.ingredients {
+    text-align: center;
+    padding: 2em 1em;
+    background-color: #ffffff; /* White background for contrast */
+}
+
+.ingredients h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #003366; /* Deep Blue for headers */
+}
+
+.ingredients p {
+    margin: 1em 0;
+    font-size: 1.2em;
+    color: #333; /* Dark Gray text */
+}
+
+.ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+.ingredients li {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    font-size: 1.1em;
+    color: #333; /* Dark Gray text */
+}
+
+.ingredients .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
