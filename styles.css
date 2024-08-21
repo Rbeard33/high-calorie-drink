@@ -1,149 +1,149 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Sleek, modern font */
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0; /* Soft Gray background */
-    color: #333; /* Dark Gray text */
+    background-color: #121212; /* Dark background for a futuristic feel */
+    color: #e0e0e0; /* Light gray text */
 }
 
 header {
-    background-color: #003366; /* Deep Blue header */
-    color: #fff; /* White text */
+    background-color: #1a1a1a; /* Dark header */
+    color: #e50914; /* Red text, similar to Terminator's theme */
     text-align: center;
     padding: 1em 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em; /* Larger font size for emphasis */
+    font-size: 3em; /* Larger font size for emphasis */
+    text-transform: uppercase; /* All caps for a strong impact */
 }
 
 header p {
     margin: 0.5em 0 0;
-    font-size: 1.2em; /* Slightly larger font size for readability */
+    font-size: 1.5em;
 }
 
 .hero {
     text-align: center;
     padding: 3em 1em;
-    background-color: #4CAF50; /* Vibrant Green background */
-    color: #fff; /* White text */
+    background-color: #2c2c2c; /* Darker section for contrast */
+    color: #e50914; /* Red text */
 }
 
 .hero h2 {
     margin: 0;
     font-size: 2.5em;
+    text-transform: uppercase;
 }
 
 .hero p {
     margin: 1em 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .cta-button {
-    background-color: #00BFFF; /* Light Blue button */
-    color: #fff; /* White text */
-    padding: 0.75em 1.5em;
+    background-color: #e50914; /* Red button */
+    color: #121212; /* Dark text */
+    padding: 0.75em 2em;
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3em;
     display: inline-block;
     margin-top: 1em;
-}
-
-.hero-image {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .engagement {
     text-align: center;
-    padding: 2em 1em;
-    background-color: #ffffff; /* White background for contrast */
+    padding: 3em 1em;
+    background-color: #1a1a1a; /* Dark background */
+    color: #e0e0e0; /* Light gray text */
 }
 
 .engagement h2 {
     margin: 0;
     font-size: 2.5em;
+    text-transform: uppercase;
 }
 
 .benefit {
     margin: 2em 0;
 }
 
-.benefit-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 1em;
+.benefit h3 {
+    font-size: 1.8em;
+    color: #e50914; /* Red heading */
+    text-transform: uppercase;
 }
 
 .engagement p {
     margin: 1em 0;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #signup {
     text-align: center;
     padding: 2em 1em;
-    background-color: #00BFFF; /* Light Blue background for signup */
-    color: #fff; /* White text */
+    background-color: #2c2c2c; /* Darker background for signup */
+    color: #e50914; /* Red text */
 }
 
 #signup h2 {
     margin: 0;
     font-size: 2.5em;
+    text-transform: uppercase;
 }
 
 #signup-form {
     max-width: 400px;
     margin: 0 auto;
-    background: #fff; /* White background */
+    background: #1a1a1a; /* Dark form background */
     padding: 2em;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Slightly stronger shadow */
     border-radius: 5px;
 }
 
 #signup-form label {
     display: block;
     margin: 0.5em 0 0.25em;
+    color: #e0e0e0; /* Light gray text */
 }
 
 #signup-form input {
     width: 100%;
     padding: 0.5em;
     margin-bottom: 1em;
+    background-color: #333; /* Darker input field */
+    border: 1px solid #e50914; /* Red border */
+    color: #e0e0e0;
+    border-radius: 3px;
 }
 
 #signup-form button {
-    background-color: #4CAF50; /* Vibrant Green button */
-    color: #fff; /* White text */
+    background-color: #e50914; /* Red button */
+    color: #121212; /* Dark text */
     border: none;
     padding: 0.75em 1.5em;
     cursor: pointer;
     border-radius: 5px;
     font-size: 1.2em;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .note {
     margin-top: 1em;
     font-size: 0.9em;
-    color: #f0f0f0; /* Slightly lighter text for the note */
+    color: #999; /* Lighter gray for the note */
 }
 
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #003366; /* Deep Blue footer */
-    color: #fff; /* White text */
-}
-
-footer p {
-    margin: 0;
-}
-
-footer a {
-    color: #fff; /* White links */
-    text-decoration: none;
+    background-color: #1a1a1a; /* Dark footer */
+    color: #e0e0e0; /* Light gray text */
+    text-transform: uppercase;
 }
