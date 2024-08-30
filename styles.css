@@ -11,19 +11,17 @@ header {
     color: #e50914;
     text-align: center;
     padding: 1em 0;
-    position: relative; /* For logo placement */
+    position: relative;
 }
 
-header .logo {
-    max-width: 150px; /* Adjust the size as needed */
+header #logo {
+    max-width: 150px;
     position: absolute;
     top: 50%;
     left: 20px;
     transform: translateY(-50%);
-    width: 100%;
+    width: 150px;
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 header h1 {
@@ -165,7 +163,6 @@ footer {
     text-transform: uppercase;
 }
 
-/* New styles for responsive images */
 img {
     max-width: 100%;
     height: auto;
