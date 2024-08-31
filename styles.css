@@ -2,26 +2,30 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212;
-    color: #e0e0e0;
+    background-color: #121212; /* Consistent dark background */
+    color: #e0e0e0; /* Light grey text for readability */
 }
 
 header {
-    background-color: #1a1a1a;
-    color: #e50914;
-    text-align: center;
-    padding: 1em 0;
+    background-color: #1a1a1a; /* Dark background for the header */
+    color: #e50914; /* Brand color for text */
+    text-align: center; /* Center alignment for all text */
+    padding: 1em 0; /* Top and bottom padding */
+    display: flex; /* Using flexbox to center content vertically and horizontally */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack elements vertically */
 }
 
 header h1 {
-    margin: 0;
-    font-size: 3em; /* Adjust font size as needed */
-    text-transform: uppercase;
+    margin: 0.5em 0; /* Add some vertical space around the h1 */
+    font-size: 2.5em; /* Adjust font size appropriately */
+    text-transform: uppercase; /* Uppercase text for stylistic preference */
 }
 
 header p {
-    margin: 0.5em 0 0;
-    font-size: 1.5em;
+    font-size: 1.2em; /* Slightly smaller font size than the h1 */
+    margin-bottom: 0.5em; /* Space below the paragraph */
 }
 
 .hero {
@@ -35,6 +39,4 @@ header p {
     background-blend-mode: multiply;
 }
 
-.hero h2, .hero p, .cta-button, #signup {
-    /* Existing styles remain unchanged */
-}
+/* Other sections remain unchanged */
