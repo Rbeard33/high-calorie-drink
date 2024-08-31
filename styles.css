@@ -2,30 +2,37 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #121212; /* Consistent dark background */
-    color: #e0e0e0; /* Light grey text for readability */
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
-    background-color: #1a1a1a; /* Dark background for the header */
-    color: #e50914; /* Brand color for text */
-    text-align: center; /* Center alignment for all text */
-    padding: 1em 0; /* Top and bottom padding */
-    display: flex; /* Using flexbox to center content vertically and horizontally */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    flex-direction: column; /* Stack elements vertically */
+    background-color: #1a1a1a;
+    color: #e50914;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header #logo {
+    max-width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 150px;
+    height: auto;
 }
 
 header h1 {
-    margin: 0.5em 0; /* Add some vertical space around the h1 */
-    font-size: 2.5em; /* Adjust font size appropriately */
-    text-transform: uppercase; /* Uppercase text for stylistic preference */
+    margin: 0;
+    font-size: 3em;
+    text-transform: uppercase;
 }
 
 header p {
-    font-size: 1.2em; /* Slightly smaller font size than the h1 */
-    margin-bottom: 0.5em; /* Space below the paragraph */
+    margin: 0.5em 0 0;
+    font-size: 1.5em;
 }
 
 .hero {
@@ -39,4 +46,31 @@ header p {
     background-blend-mode: multiply;
 }
 
-/* Other sections remain unchanged */
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.hero p {
+    margin: 1em 0;
+    font-size: 1.3em;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #121212;
+    padding: 0.75em 2em;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+    display: inline-block;
+    margin-top: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#signup {
+    text-align: center;
+    padding: 2em 1em;
