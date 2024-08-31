@@ -74,3 +74,21 @@ header p {
 #signup {
     text-align: center;
     padding: 2em 1em;
+}
+
+/* Green subscribe button */
+#mc-embedded-subscribe {
+    background-color: #28a745; /* Green color */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text color */
+    padding: 0.75em 2em;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#mc-embedded-subscribe:hover {
+    background-color: #218838; /* Darker green on hover */
+}
