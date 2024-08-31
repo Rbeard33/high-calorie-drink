@@ -8,81 +8,70 @@ body {
 
 header {
     background-color: #1a1a1a;
+    color: #e50914;
     text-align: center;
     padding: 1em 0;
     position: relative;
 }
 
-.header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 header #logo {
-    max-width: 120px; /* Smaller logo for all devices */
+    max-width: 120px; /* Adjusted for better scaling on mobile */
+    width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
 }
 
-header h1 {
-    font-size: 2em; /* Smaller font size for better mobile appearance */
-    padding: 0.5em 0; /* Adding padding for spacing */
-}
-
-header p {
-    font-size: 1em;
-}
-
-.hero {
-    text-align: center;
-    padding: 2em 1em;
-    background-color: #2c2c2c;
-    background-image: url('Picture1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: multiply;
+.hero-logo {
+    width: 100%; /* Full width for hero section */
+    max-width: 500px; /* Limits the size on larger screens */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
 }
 
 .cta-button {
     background-color: #e50914;
-    padding: 0.5em 1.5em; /* Adjust padding for smaller buttons on mobile */
-    font-size: 1em; /* Smaller font for mobile */
-}
-
-@media (min-width: 768px) {
-    .header-content {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    header #logo {
-        max-width: 150px; /* Larger logo for wider screens */
-    }
-
-    header h1, header p {
-        text-align: left;
-    }
-
-    .cta-button {
-        padding: 0.75em 2em; /* Larger padding for desktop */
-        font-size: 1.3em; /* Larger font size for desktop */
-    }
+    padding: 0.75em 2em;
+    border: none;
+    border-radius: 5px;
+    color: #121212;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 1em;
+    text-decoration: none;
 }
 
 #signup {
     text-align: center;
     padding: 2em 1em;
-    background-color: #1a1a1a; /* Consistent background for the form */
 }
 
 #mc-embedded-subscribe {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #28a745; /* Green color */
+    border: none;
+    border-radius: 5px;
+    color: #fff; /* White text color */
     padding: 0.75em 2em;
     font-size: 1.3em;
-    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
     cursor: pointer;
 }
 
 #mc-embedded-subscribe:hover {
-    background-color: #218838;
+    background-color: #218838; /* Darker green on hover */
+}
+
+footer {
+    padding: 2em 1em;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+footer .footer-logo {
+    width: 100px; /* Adjust the size as necessary */
+    height: auto; /* Maintains aspect ratio */
+    margin-bottom: 1em;
 }
